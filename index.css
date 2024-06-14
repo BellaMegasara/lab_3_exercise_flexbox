@@ -1,0 +1,127 @@
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: purple;
+}
+
+.background-1 {
+    background: #68B0AB;
+}
+
+.background-2 {
+    background: #8FC0A9;
+}
+
+.background-3 {
+    background: #C8D5B9;
+}
+
+.background-4 {
+    background: #FAF3DD;
+}
+
+.m-20 {
+    margin: 20px;
+}
+
+.h-80 {
+    height: 80px;
+}
+
+.h-400 {
+    height: 400px;
+}
+
+.w-80 {
+    width: 80px;
+}
+
+/* Add your answers here, do not modify the above CSS */
+.flex-container {     /* QUESTION 2.1 */
+    display: flex;
+}
+
+.flex-item-1 {         /* QUESTION 2.2 */
+    flex: 1;
+}
+
+.flex-item-2 {         
+    flex: 2;
+}
+
+.flex-item-3 {
+    flex: 3;
+}
+
+.flex-item-4 {
+    flex: 4;
+}
+
+.flex-center {                 /* QUESTION 3 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-space-between {           /* QUESTION 4 */
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-basis-item-50 {           /* QUESTION 5.1 */
+    flex: 0 0 50%;
+}
+
+.flex-wrap {                   
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-wrap {                     
+    flex-wrap: wrap-reverse;    /* QUESTION 5.2 */
+}
+
+.flex-basis-item-50 {           /* QUESTION 5.3 */
+    flex: 0 0 25%;
+}
+
+.flex-container {               /* QUESTION 6.1 */
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-menu {                  /* QUESTION 7 */
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.flex-menu li {
+    padding: 10px 20px;
+    text-align: right;
+    align-items: center;
+    border-left: 2px solid #68B0AB;
+}
+
+.flex-menu a {
+    color: #000000;
+    font-weight: bold;
+}
+
+.flex-menu li {
+    justify-content: center;
+}
+
+.fourth-item {
+    order: 1;
+}
+
+.flex-menu li {
+    flex-grow: 1;
+    text-align: center;
+}
